@@ -1,0 +1,25 @@
+.body
+{
+    max-width: 1124px;
+    max-height: 2020px;
+}
+.navbar{
+    background-color: #ffffff;
+    position: fixed;
+}
+.navbar-brand
+{
+    margin-left: 82px;
+}
+.btn {
+    border: 2px solid #F2F2F2;
+    background-color: white;
+    color: #1D1D1D;
+    font-size: 13px;
+    font-family: 'Roboto',sans-serif;
+    margin-left: 703px;
+  }
+  .basket
+  {
+    margin-left: 16px;
+  }
