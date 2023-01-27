@@ -174,7 +174,8 @@ hr {
 
 .footer-download {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .footer-down-inf1 {
@@ -187,4 +188,9 @@ hr {
 .footer-down-inf2,
 .footer-down-inf3 {
     color: #FFFFFF;
+}
+.social-ico{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }

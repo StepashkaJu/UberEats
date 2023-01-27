@@ -161,15 +161,82 @@
     display: flex;
     align-items: center;
 }
-
-.footer-down-about {
-    display: inline-flex;
-    margin-left: 82px;
-}
-
 .footer-download {
-
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+}
+
+.footer-down-inf1 {
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 82px;
+}
+
+.footer-down-inf2,
+.footer-down-inf3 {
+    color: #FFFFFF;
+}
+.language {
+    margin-left: 95px;
+    margin-top: 44px;
+    padding: 12px 195px 12px 16px;
+}
+
+.social-ico {
+    margin-left: 82px;
+}
+
+.hashtag {
+    margin-left: 82px;
+    margin-top: 33px;
+}
+
+.inf {
+    color: #FFFFFF;
+}
+
+.col-xs-12 col-md-4 col-lg-4 {
+    width: 196px;
+    height: 16px;
+    left: 405px;
+    top: 1663px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    display: flex;
+    align-items: flex-end;
+    color: #FFFFFF;
+}
+.footer {
+    margin-top: 80px;
+    height: 552px;
+}
+
+.logo {
+    margin-left: 97px;
+    margin-top: 56px;
+}
+
+hr {
+    width: 956px;
+    margin-top: 41px;
+}
+
+.buton {
+    width: 227px;
+    height: 40px;
+    margin-left: 82px;
+    margin-top: 16px;
+    border: none;
+    background-color: #979797;
+    color: #ffffff;
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+    padding: 12px 128px 12px 48px;
+    display: flex;
+    align-items: center;
 }
