@@ -1,22 +1,28 @@
-body {
-    max-width: 1124px;
-    max-height: 2020px;
-}
+/*MEDIA*/
+@media screen and (min-width: 319px) {
+    .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
 
+    .basket {
+        margin-right: 8px;
+        margin-left: 16px;
+    }
+}
 .navbar {
-    max-width: 1124px;
+    position: fixed;
+    width: 100%;
     height: 72px;
     max-height: 72px;
     background-color: #ffffff;
-    position: fixed;
     box-shadow: 0 0 2px;
 }
 
-.navbar-brand {
-    margin-left: 82px;
-}
-
 .btn {
+    width: 78px;
+    height: 40px;
     border: 2px solid #F2F2F2;
     background-color: white;
     color: #1D1D1D;
@@ -25,14 +31,16 @@ body {
     margin-left: 703px;
 }
 
+.navbar-brand {
+    margin-left: 82px;
+}
+
 .basket {
     margin-left: 24px;
 }
 
 input {
     margin-top: 128px;
-    margin-left: 81px;
-    max-width: 956px;
     width: 100%;
     height: 24px;
     border: none;
@@ -56,15 +64,12 @@ input {
 }
 
 .container {
-    margin-left: 81px;
-    margin-right: 57px;
-    width: 956px;
-    max-width: 956px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .RestaurantCard {
-    max-width: 308px;
-    max-height: 366px;
     margin-top: 16px;
     margin-left: 1px;
 }
@@ -142,21 +147,22 @@ hr {
 .social-ico {
     margin-left: 82px;
 }
-.hashtag
-{
+
+.hashtag {
     margin-left: 82px;
     margin-top: 33px;
 }
-.inf
-{
+
+.inf {
     color: #FFFFFF;
 }
+
 .col-xs-12 col-md-4 col-lg-4 {
     width: 196px;
     height: 16px;
     left: 405px;
     top: 1663px;
-    font-family: 'Roboto',sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 13px;
@@ -165,19 +171,20 @@ hr {
     align-items: flex-end;
     color: #FFFFFF;
 }
-.footer-download
-{
-    display:flex;
+
+.footer-download {
+    display: flex;
     justify-content: center;
 }
-.footer-down-inf1
-{
+
+.footer-down-inf1 {
     color: #FFFFFF;
-    display:flex;
+    display: flex;
     justify-content: space-between;
     margin-left: 82px;
 }
-.footer-down-inf2,.footer-down-inf3
-{
+
+.footer-down-inf2,
+.footer-down-inf3 {
     color: #FFFFFF;
 }

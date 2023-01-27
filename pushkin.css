@@ -1,0 +1,175 @@
+.navbar {
+    position: fixed;
+    width: 100%;
+    height: 72px;
+    max-height: 72px;
+    background-color: #ffffff;
+    box-shadow: 0 0 2px;
+}
+
+.btn {
+    width: 78px;
+    height: 40px;
+    border: 2px solid #F2F2F2;
+    background-color: white;
+    color: #1D1D1D;
+    font-size: 13px;
+}
+
+/*MEDIA*/
+@media screen and (min-width: 319px) {
+    .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .basket {
+        margin-right: 8px;
+        margin-left: 16px;
+    }
+}
+
+.background {
+    width: 100%;
+    height: 364px;
+    background-image: url(Restaurant/d42ea9bbf7aff297c2e1eb5e5f3b7fa6-w1080-87.png);
+    background-size: cover;
+    background-position: center;
+    margin-top: 72px;
+}
+
+.name_r {
+    width: 389px;
+    height: 204px;
+    top: 152px;
+    left: 81px;
+    background-color: #ffffff;
+}
+
+.namerest {
+    text-align: center;
+    font-weight: 400;
+    font-size: 36px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.name_price {
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    width: 389px;
+    height: 204px;
+    top: 152px;
+    left: 81px;
+    color: #626262;
+}
+
+.name_time {
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    width: 180px;
+    left: 81px;
+    /* margin-top: 54px; */
+    margin-left: 66px;
+    background-color: #626262;
+    color: #F2F2F2;
+    border-radius: 25px;
+    margin: inherit 20%;
+    box-sizing: content-box;
+    padding: 0.5rem 1.5rem;
+}
+
+.name_price_time {
+    height: 32px;
+    margin-top: 62px;
+    display: flex;
+    margin-left: 38px;
+    justify-content: center;
+}
+
+.filtercontainer {
+    margin-top: 0px;
+}
+
+.filter {
+    font-size: 15px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+}
+
+.restText {
+    margin-left: 71px;
+    font-size: 22px;
+}
+
+.foodcontainer {
+    display: inline;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dish__card a {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 0.5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+    border: 1px solid #ece7e7;
+}
+
+.dish__text {
+    display: flex;
+    flex-flow: column wrap;
+    flex-basis: 64%;
+    padding: 1rem 0rem 1rem 1rem;
+}
+
+.dish__name {
+    flex-grow: 1;
+    color: #1D1D1D;
+    font-size: 16px;
+}
+
+.dish__disc {
+    flex-grow: 1;
+    font-size: 13px;
+    /* border: 1px solid rebeccapurple; */
+}
+
+.dish__image {
+    overflow: hidden;
+    flex-basis: 34%;
+    padding: 0px;
+    transition-duration: 0, 5ms;
+    /*   border: 1px solid rebeccapurple;
+   */
+}
+
+.dish__image img {
+    width: 100%;
+    padding: 0px;
+    transition: all 0.3s ease-in;
+}
+
+.dish__content {
+    margin: 0px;
+    display: flex;
+    align-items: center;
+}
+
+.footer-down-about {
+    display: inline-flex;
+    margin-left: 82px;
+}
+
+.footer-download {
+
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
